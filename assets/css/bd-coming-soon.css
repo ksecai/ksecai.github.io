@@ -1,0 +1,156 @@
+body {
+  font-family: 'Karla', sans-serif;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column; }
+  @media (max-width: 767px) {
+    body {
+      padding-top: 20px;
+      padding: 20px; } }
+
+main {
+  padding: 20px 0; }
+
+.brand-wrapper {
+  padding: 20px 0; }
+  .brand-wrapper img {
+    height: 21px; }
+  @media (max-width: 767px) {
+    .brand-wrapper {
+      margin-bottom: 20px; } }
+
+.badge-black {
+  display: inline-block;
+  background-color: #000000;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 27px; }
+  @media (max-width: 991px) {
+    .badge-black {
+      font-size: 16px; } }
+  @media (max-width: 767px) {
+    .badge-black {
+      font-size: 12px; } }
+
+.page-title {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 16px; }
+  @media (max-width: 767px) {
+    .page-title {
+      font-size: 22px; } }
+
+.page-subtitle {
+  font-size: 18px;
+  margin-bottom: 27px; }
+  @media (max-width: 767px) {
+    .page-subtitle {
+      font-size: 12px; } }
+
+.subscribe-form {
+  display: flex; }
+  .subscribe-form .form-group {
+    margin-bottom: 0;
+    margin-right: 8px; }
+  .subscribe-form .form-control {
+    height: 48px;
+    border: 1px solid #f5f5f5;
+    border-radius: 2px;
+    background-color: transparent;
+    color: #ffffff;
+    padding: 16px 30px;
+    font-size: 14px; }
+    .subscribe-form .form-control::-webkit-input-placeholder {
+      color: #f5f5f5; }
+    .subscribe-form .form-control::-moz-placeholder {
+      color: #f5f5f5; }
+    .subscribe-form .form-control:-ms-input-placeholder {
+      color: #f5f5f5; }
+    .subscribe-form .form-control::-ms-input-placeholder {
+      color: #f5f5f5; }
+    .subscribe-form .form-control::placeholder {
+      color: #f5f5f5; }
+  .subscribe-form .subscribe-btn {
+    background-image: linear-gradient(to right, #ff7100 0%, #ffc82d 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0;
+    padding: 16px 20px;
+    font-size: 13px;
+    line-height: 1.15;
+    font-weight: bold;
+    color: #ffffff;
+    white-space: nowrap; }
+
+.bd-cd-timer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between; }
+  @media (max-width: 767px) {
+    .bd-cd-timer {
+      padding: 50px 0; } }
+  .bd-cd-timer .time-card {
+    width: calc( 25% - 10px);
+    display: flex;
+    flex-direction: column;
+    text-align: center; }
+    @media (max-width: 575px) {
+      .bd-cd-timer .time-card {
+        width: calc( 25% - 5px); } }
+    .bd-cd-timer .time-card .time-count {
+      display: flex;
+      width: 100%;
+      height: 152px;
+      background-color: rgba(255, 255, 255, 0.1);
+      align-items: center;
+      justify-content: center;
+      font-size: 80px;
+      padding: 5px;
+      margin-bottom: 20px; }
+      @media (max-width: 991px) {
+        .bd-cd-timer .time-card .time-count {
+          height: 100px;
+          font-size: 50px; } }
+    .bd-cd-timer .time-card .time-label {
+      display: block;
+      font-size: 15px;
+      font-weight: bold;
+      color: #eeeeee; }
+      @media (max-width: 991px) {
+        .bd-cd-timer .time-card .time-label {
+          font-size: 12px; } }
+
+.footer-social-links {
+  padding: 20px 0;
+  margin-bottom: 12px; }
+  .footer-social-links .social-link {
+    display: inline-flex;
+    border-radius: 20px;
+    background-color: rgba(230, 230, 230, 0.29);
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 16px;
+    font-size: 20px;
+    color: #fffafa; }
+    .footer-social-links .social-link:last-child {
+      margin-right: 0; }
+
+.footer-text {
+  font-size: 14px;
+  padding: 20px 0; }
+  @media (max-width: 767px) {
+    .footer-text {
+      font-size: 10px; } }
+
+/*# sourceMappingURL=bd-coming-soon.css.map */
